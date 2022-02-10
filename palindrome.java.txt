@@ -1,0 +1,18 @@
+class palindrome
+{
+Public Static Void Main (string{}args){
+int a,b=0,c,d;
+system.out.print("Enter any number")
+Scanner ref+new scanner (system.in);
+a=ref.next Int ();
+c=a;
+{
+d=a%10;
+b=(b*10)+d;
+a=a/10;
+}
+if (c==b)
+system.out.print ("palindrome number")
+else
+system.out.print("not palindrome number");
+}
